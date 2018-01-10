@@ -16,16 +16,25 @@ npm install --save sigungu
 
 ### Description
 
+3 단계로 구분한 간략한 주소 데이터
+
+1. (특별/광역)시도 (class A)
+2. 시군구 (class B)
+3. 읍면동 (class C)
+
+* 광역시가 아닌 일반 시의 주소(예: 충청북도 청주시 상당구 가덕면) 는 시, 구(청주시 상당구) 를 class B 에 할당
+
 ```js
 // index.js
 const { sidoList, getSub } = require('sigungu');
+// import {sidoList, getSub} from 'sigungu'
 
 // 광역시 / 도
 const sido = sidoList[0];
 
 console.log(sido.code, sido.name);
 
-// 시군구 (예외 있음)
+// 시군구 (예외 존재)
 const sigungu = getSub(sido)[0];
 
 console.log(sigungu.code, sigungu.name);
