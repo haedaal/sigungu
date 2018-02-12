@@ -5,6 +5,7 @@
 [![Travis](https://img.shields.io/travis/haedaal/sigungu.svg)](https://travis-ci.org/haedaal/sigungu)
 [![Coveralls](https://img.shields.io/coveralls/haedaal/sigungu.svg)](https://coveralls.io/github/haedaal/sigungu)
 [![Dev Dependencies](https://david-dm.org/haedaal/sigungu/dev-status.svg)](https://david-dm.org/haedaal/sigungu?type=dev)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 A minimal address data of south korea
 
